@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+nul
+
+# Environnements locaux
+env/
+venv/
+.venv/
+ENV/
+
+# Builds executables
+build/pyinstaller/
+build/specs/
+dist/
+*.spec
+!build/PaginaVox.spec
+
+# Rendus temporaires de notices
+notice_cli_render/
+gradio/notice_gradio_render/
+Docker/notice_render/
+
+# Fichiers generes par PaginaVox
+audio/*
+txt/*
+output/*
+profiles/*
+
+# Garder la structure des dossiers dans Git
+!audio/.gitkeep
+!txt/.gitkeep
+!output/.gitkeep
+!profiles/.gitkeep
+
+# Gros fichiers et donnees sensibles
+*.pkl
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.onnx
+.cache/
+models/
+model_cache/
+
+# OS / editeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
