@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="gradio/assets/logo.png" alt="PaginaVox Open logo" width="160">
+</p>
+
 # PaginaVox Open
 
 PaginaVox Open is a local command-line and Gradio application for generating speech with Qwen TTS.
